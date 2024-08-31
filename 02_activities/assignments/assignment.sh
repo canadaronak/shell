@@ -20,7 +20,8 @@ cat dir2/file3.txt
 # 6. Delete file4.txt
 rm -irv dir2/file4.txt
 # 7. Delete directories dir4 and dir5 including all their contents (if any)
-rm -r dir4 && rm -r dir5
+rm dir4\
+rm dir5\
 
 # 8. List the contents of the current working directory to verify the deletion of dir4 and dir5
 ls -l
